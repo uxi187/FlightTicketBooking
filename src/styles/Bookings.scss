@@ -1,0 +1,63 @@
+.dash-con{
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    padding: 3vw 5vw 0;
+    .dash-con-title{
+        margin-bottom: 1.042vw;
+        font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+    }
+    .dash-con-body{
+        display: flex;
+        .prof-con{  
+            background-color: #fff;
+            padding: 1.042vw;
+            border-radius: 1.083vw;
+            width: 30.833vw;
+            .prof-con-header{
+                display: flex;
+                justify-content: space-between;
+                .prof-con-title{
+                    font:normal normal 300 1.667vw/1.667vw var(--font-Jotia);
+                }
+                .edud-btn{
+                    padding: 0.26vw 1.042vw;
+                    border: 0.052vw solid #ccc;
+                    font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+                    background-color: transparent;
+                    border-radius: 0.26vw;
+                }
+            }
+            .prof-con-body{
+                font:normal normal normal 0.99vw/1.542vw var(--font-Jotia);
+                padding: 1.042vw 0 0;
+            }
+        }
+        .bk-con{
+            background-color: #fff;
+            padding: 1.042vw;
+            border-radius: 1.083vw;
+            width: 30.833vw;
+            margin-left: 2.083vw;
+            .bk-con-title{
+                font:normal normal 300 1.667vw/1.667vw var(--font-Jotia);
+            }
+            .bk-con-body{
+                padding-top: 1.042vw;
+                .bk-b-item{
+                    display: flex;
+                    border-bottom: 0.052vw solid #ccc;
+                    &:first-child{
+                        border-top: 0.052vw solid #ccc;
+                    }
+                    padding: 1.042vw;
+                    .dd-con{
+                        display: flex;
+                        align-items: center;
+                        font:normal normal 300 1.4vw/1.458vw var(--font-Jotia);
+                        margin-right: 2.083vw;
+
+                    }
+                }
+            }
+        }
+    }
+}
